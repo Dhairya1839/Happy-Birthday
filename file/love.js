@@ -166,7 +166,7 @@
             ctx.stroke();
 
             ctx.moveTo(0, 0);
-            ctx.scale(0.75, 0.75);
+            ctx.scale(1.5, 1.5);
             ctx.font = "12px,Verdana"; // 字号肿么没有用? (ˉ(∞)ˉ)
             ctx.fillText("Click Me:) ", 30, -5);
             ctx.fillText("Birthday Queen !", 28, 10);
@@ -174,7 +174,7 @@
         },
         clear: function() {
             var ctx = this.tree.ctx, cirle = this.cirle;
-            var point = cirle.point, scale = cirle.scale, radius = 26;
+            var point = cirle.point, scale = cirle.scale, radius = 30;
             var w = h = (radius * scale);
             ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
         },
