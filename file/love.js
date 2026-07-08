@@ -166,7 +166,7 @@
             ctx.stroke();
 
             ctx.moveTo(0, 0);
-            ctx.scale(2, 2);
+            ctx.scale(1.25, 1.25);
             ctx.font = "12px,Verdana"; // 字号肿么没有用? (ˉ(∞)ˉ)
             ctx.fillText("Click Me:) ", 30, -5);
             ctx.fillText("Birthday Queen !", 28, 10);
